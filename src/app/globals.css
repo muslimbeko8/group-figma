@@ -15,9 +15,11 @@
 }
 
 body {
+  height: 200vh;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background: #111 url(/image.png) no-repeat 50% / cover fixed;
 }
 
 #app {
