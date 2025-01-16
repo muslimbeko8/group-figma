@@ -1,7 +1,7 @@
 const OurTeam = () => {
   return (
     <div className="relative mx-auto max-w-[1200px] ">
-      <span className="text-5xl">Our team</span>
+      <span className="text-5xl text-white">Our team</span>
       <div className="flex items-center gap-8">
         <div className="border-l-4 border-[#00ddff84] h-[70px]  mt-7 rounded-sm"></div>
         <div className="text-[#9BA1A8] text-2xlz mt-4 ">

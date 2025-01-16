@@ -3,18 +3,16 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
-// import "swiper/css";
-// import "swiper/css/pagination";
-
-// Import required modules
+import "swiper/css";
+import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 const CreativeWorks = () => {
   return (
-    <div className="flex justify-between items-center px-8 py-12 text-white mx-auto max-w-[1200px] mt-[300px]">
-      <div className="w-1/2">
+    <div className="flex justify-between items-center text-white mx-auto max-w-[1200px] mt-[300px]">
+      {/* Chap tomonda matn */}
+      <div className="w-1/2 pr-8">
         <h1 className="text-5xl font-bold mb-4">My Creative Works</h1>
         <h2 className="text-3xl font-bold text-white">
           Latest <span className="text-[#00DBFF]">Projects</span>
@@ -28,41 +26,27 @@ const CreativeWorks = () => {
         </button>
       </div>
 
-      <div className="w-1/2 h-[400px]">
-        <Swiper
-          direction={"vertical"}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <div className="h-[200px] bg-gray-800 flex items-center justify-center">
-              Slide 1
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="h-[200px] bg-gray-700 flex items-center justify-center">
-              Slide 2
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="h-[200px] bg-gray-600 flex items-center justify-center">
-              Slide 3
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="h-[200px] bg-gray-500 flex items-center justify-center">
-              Slide 4
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="h-[200px] bg-gray-400 flex items-center justify-center">
-              Slide 5
-            </div>
-          </SwiperSlide>
-        </Swiper>
+      <div className="w-1/2 grid grid-cols-2 gap-4">
+        <img
+          src="/samo.png"
+          alt="samo"
+          className="w-full h-[250px] object-cover rounded-md"
+        />
+        <img
+          src="/astronaut.png"
+          alt="astronaut"
+          className="h-[250px]  rounded-md"
+        />
+        <img
+          src="/suniy.png"
+          alt="suniy"
+          className="w-full h-[250px]  rounded-md"
+        />
+        <img
+          src="/planeta.png"
+          alt="planeta"
+          className="w-[282px] h-[400px]"
+        />
       </div>
     </div>
   );
