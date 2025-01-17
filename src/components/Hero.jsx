@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div>
       <nav></nav>
-      <section>
+      <section className="">
         <HeroSwiper />
       </section>
     </div>
