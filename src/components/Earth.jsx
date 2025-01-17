@@ -35,7 +35,7 @@ export default function Earth() {
           alt="Earth1"
         />
         <div className="absolute top-[70%] left-1/2 transform -translate-x-1/2 flex flex-col items-center space-y-6 z-10 text-white text-center">
-          <p className="text-sm sm:text-md md:text-lg lg:text-xl font-bold">
+          <p className="text-sm sm:text-md md:text-lg lg:text-xl ">
             This is a place for all space lovers where everyone will find a
             hundred things for themselves{" "}
           </p>

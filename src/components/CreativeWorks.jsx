@@ -13,15 +13,15 @@ const CreativeWorks = () => {
     <div className="flex justify-between items-center text-white mx-auto max-w-[1200px] mt-[300px]">
       {/* Chap tomonda matn */}
       <div className="w-1/2 pr-8">
-        <h1 className="text-5xl font-bold mb-4">My Creative Works</h1>
-        <h2 className="text-3xl font-bold text-white">
+        <h1 className="text-5xl mb-4">My Creative Works</h1>
+        <h2 className="text-3xl text-white">
           Latest <span className="text-[#00DBFF]">Projects</span>
         </h2>
         <p className="text-lg mt-4">
           I have selected and mentioned here some of my latest <br /> projects
           to share with you.
         </p>
-        <button className="mt-6 px-6 py-3 bg-transparent text-white font-bold hover:bg-black hover:text-white border border-white relative">
+        <button className="mt-6 px-6 py-3 bg-transparent text-white hover:bg-black hover:text-white border border-white relative">
           <span className="relative top-[-4px]">Show More</span>
         </button>
       </div>
