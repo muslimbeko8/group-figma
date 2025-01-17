@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.cdnfonts.com/css/creatball");
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -15,9 +17,30 @@
 }
 
 body {
-  height: 200vh;
+  min-height: 200vh;
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  background: #111 url(/image.png) no-repeat 50% / cover fixed;
+  font-family: "Creatball", Arial, sans-serif;
+  background: #111 url(/image.png) no-repeat center/cover fixed;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 630px) {
+  .swiper-slide {
+    max-width: 350px;
+  }
 }

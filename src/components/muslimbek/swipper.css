@@ -1,0 +1,36 @@
+/* Add these styles to your swipper.css file */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 320px; /* Default mobile width */
+}
+
+/* Responsive widths */
+@media (min-width: 640px) {
+  .swiper-slide {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .swiper-slide {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiper-slide {
+    width: 745px;
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}

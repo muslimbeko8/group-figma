@@ -7,13 +7,16 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        creatball: ["var(--font-creatball)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      backgroundImage:{
-        hero: "url(/image.png)"
-      }
+      backgroundImage: {
+        hero: "url(/image.png)",
+      },
     },
   },
   plugins: [],

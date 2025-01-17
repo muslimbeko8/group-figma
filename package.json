@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/geist": "^5.0.1",
+    "lucide-react": "^0.471.1",
+    "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.4"
+    "swiper": "^11.2.1"
   },
   "devDependencies": {
     "postcss": "^8",
