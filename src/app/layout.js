@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Footer from "@/components/muslimbek/footer";
+import Footer from "@/components/muslimbek/Footer";
 import Navbar from "@/components/Navbar";
 
 const creatball = localFont({ src: "../Creatball-Regular.ttf" });
